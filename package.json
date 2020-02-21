@@ -1,0 +1,23 @@
+{
+  "name": "isithalloween",
+  "version": "1.0.0",
+  "description": "Web app to check if it's Halloween",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuimmholften/IsitHalloween.git"
+  },
+  "author": "Erick Garcia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wuimmholften/IsitHalloween/issues"
+  },
+  "homepage": "https://github.com/wuimmholften/IsitHalloween#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
+}
