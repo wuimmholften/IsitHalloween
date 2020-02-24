@@ -3,7 +3,12 @@ const express = require('express');
 //Creamos una nueva app con express
 const app = express();
 
+
 app.set('view engine', 'ejs')
+
+//Responder a todas la peticiones con la carpeta public 
+app.use(express.static('public'));
+
 //Definir el puerto
 const port = 3000;
 
